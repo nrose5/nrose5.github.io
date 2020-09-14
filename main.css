@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+}
+
+#intro {
+    background-image: url('img/top.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 0;
+    font-size: 250%;
+    color: honeydew;
+}
+
+#introText {
+    margin-left: 25%;
+    margin-top: -5%;
+}
+
+#intro #hi {
+    font-style: italic;
+}
+
+#intro #name {
+    font-style: normal;
+}
