@@ -1,7 +1,10 @@
 html, body {
     height: 100%;
+    margin: 0;
+    background-color: rgb(47, 63, 47);
 }
 
+/* --- INTRO --- */
 #intro {
     background-image: url('img/top.png');
     background-size: cover;
@@ -10,6 +13,8 @@ html, body {
     padding-top: 5%;
     padding-bottom: 5%;
     margin-bottom: 0;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
     font-size: 250%;
     color: honeydew;
 }
@@ -25,4 +30,42 @@ html, body {
 
 #intro #name {
     font-style: normal;
+}
+
+/* --- STORY --- */
+#story {
+    background-color: white;
+    margin-top: 0.5%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    padding-left: 5%;
+}
+
+#story h1 {
+    margin: 0;
+}
+
+#story p {
+    padding-top: 0.25%;
+    padding-bottom: 0.5%;
+    margin: 0;
+}
+
+/* --- FOOTER --- */
+#footer {
+    background-color: white;
+    margin-top: 0.5%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    padding-left: 5%;
+}
+
+#footer h1 {
+    margin: 0;
+}
+
+#footer p {
+    padding-top: 0.25%;
+    padding-bottom: 0.5%;
+    margin: 0;
 }
