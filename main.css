@@ -34,11 +34,14 @@ html, body {
 
 /* --- STORY --- */
 #story {
-    background-color: white;
+    background-color: rgb(175, 200, 175);
     margin-top: 0.5%;
-    margin-left: 0.25%;
-    margin-right: 0.25%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 
 #story h1 {
@@ -46,18 +49,24 @@ html, body {
 }
 
 #story p {
+    line-height: 150%;
     padding-top: 0.25%;
     padding-bottom: 0.5%;
     margin: 0;
+    font-size: 125%;
 }
 
 /* --- FOOTER --- */
 #footer {
-    background-color: white;
+    background-color: rgb(175, 200, 175);
     margin-top: 0.5%;
-    margin-left: 0.25%;
-    margin-right: 0.25%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
 }
 
 #footer h1 {
@@ -68,4 +77,5 @@ html, body {
     padding-top: 0.25%;
     padding-bottom: 0.5%;
     margin: 0;
+    font-size: 125%;
 }
