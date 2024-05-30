@@ -5,6 +5,7 @@ html, body {
 /* --- INTRO --- */
 #intro {
     background-image: url('img/top.png');
+    background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -14,13 +15,13 @@ html, body {
     margin-top: 0.5%;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    font-size: 250%;
-    color: honeydew;
 }
 
 #introText {
     margin-left: 25%;
     margin-top: -5%;
+    font-size: 250%;
+    color: lightgreen;
 }
 
 #intro #hi {
@@ -32,6 +33,11 @@ html, body {
 }
 
 /* --- STORY --- */
+
+#story h1 {
+    color: green;
+}
+
 #story {
     background-color: rgb(175, 200, 175);
     margin-top: 0.5%;
